@@ -1,0 +1,226 @@
+/****TAG SELECTORS****/
+body {
+      margin: 0;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      font-size: 2em;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Yellowtail', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #40514E;
+
+}
+
+a:hover{
+        color: #c2f0fc;
+}
+/****CLASS SELECTORS****/
+.top-container {
+                background-color:#c2f0fc;
+                padding-top: 100px;
+                position: relative;
+}
+
+.middle-container {
+                   padding-top: 40px;
+
+}
+
+.bottom-container {
+                   background-color: #66BFBF;
+                   padding: 20px;
+
+}
+
+.skills {
+         padding-top: 20px;
+}
+
+.skill-row {
+            color: #40514E;
+            margin: 100px auto 100px auto;
+            width: 50%;
+            text-align: left;
+            list-style-position: inside;
+}
+
+.code{
+      width: 25%;
+      height: auto;
+      float: left;
+      margin-right: 30px;
+}
+
+.python{
+        width: 25%;
+        height: auto;
+        float: right;
+        margin-right: 30px;
+}
+
+.pro {
+      font-weight: normal;
+      text-decoration: underline;
+}
+
+.top-cloud {
+            position: absolute;
+            right: 400px;
+            top: 50px;
+            animation-name: top-cloud;
+            animation-duration: 120s;
+            animation-iteration-count: infinite;
+}
+
+@keyframes top-cloud {
+                      0% {right: 400px;}
+                      50% {right: 1200px;}
+                      100% {right: 400px;}
+
+}
+.bottom-cloud {
+               position: absolute;
+               left: 400px;
+               bottom: 300px;
+               animation-name: bottom-cloud;
+               animation-duration: 120s;
+               animation-iteration-count: infinite;
+}
+
+@keyframes bottom-cloud {
+                         0% {left: 400px;}
+                         50% {left: 1200px;}
+                         100% {left: 400px;}
+
+}
+
+.profile{
+        color: #40514E;
+        width: auto;
+        height: auto;
+        text-align: center;
+        padding: 50px;
+        font-size: 0.75em;
+}
+
+.profile_photo{
+          width: 20%;
+          height: auto;
+}
+
+.icon-source {
+              color: #EAF6F6;
+              font-size: 0.5em;
+}
+
+
+.line {
+       color: #EAF6F6;
+       border-style: dotted none none;
+       border-width: 10px;
+       width: 10%;
+}
+
+
+
+.button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #11999E;
+   -webkit-box-shadow: inset 1px 1px 20px 0 #052823;
+   -moz-box-shadow: inset 1px 1px 20px 0 #052823;
+   box-shadow: inset 1px 1px 20px 0 #052823;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.button:hover {
+   background: #EAF6F6;
+   border: solid #EAF6F6 1px;
+   color: #11999E;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-text{
+              color: #EAF6F6;
+              font-size: 0.5em;
+              margin-top: 60px;
+            margin-bottom: 0;
+}
+
+.contact-me{
+            padding: 50px;
+}
+
+.linkedin {
+           width: 3%;
+           position: relative;
+           right: 85px;
+
+}
+
+.contact-paragraph{
+                   font-size: 0.75em;
+                   color: #40514E;
+}
+
+.footer-cloud-top{
+                  position: relative;
+                  left: 400px;
+                  animation-name: footer-cloud-top;
+                  animation-duration: 120s;
+                  animation-iteration-count: infinite;
+}
+
+@keyframes footer-cloud-top {
+                             0% {left: 400px;}
+                             50% {left: -400px;}
+                             100% {left: 400px;}
+
+}
+
+.footer-cloud-bottom{
+                     position: absolute;
+                     top: 2650px;
+                     right: 1200px;
+                     animation-name: footer-cloud-bottom;
+                     animation-duration: 120s;
+                     animation-iteration-count: infinite;
+}
+
+@keyframes footer-cloud-bottom {
+                             0% {right: 1200px;}
+                             50% {right: 400px;}
+                             100% {right: 1200px;}
+}
